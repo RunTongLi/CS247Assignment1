@@ -1,0 +1,7 @@
+We implemented the following for the bonus:
+
+- Visual cues when a Human player has to make a choice
+  - All invalid moves are greyed out beforehand to make selection easier. This was immensely helpful during testing as one doesn't have to fumble around figuring out a legal move dozens of times when the game itself can point those out to you.
+
+- Smarter AI for the Computer player
+  - The most important thing is to minimize the number of points you gain in discards. This implies that one must try to preserve smaller ranked cards specifically for the purpose of discarding. Hence, when playing, one must try to play the highest ranked legal move, and when discarding discard the lowest ranked card in the hand. This is pretty much what we implemented for the bonus.
